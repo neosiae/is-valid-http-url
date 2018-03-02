@@ -1,5 +1,7 @@
 # is-valid-http-url
 
+[![Build Status](https://travis-ci.com/neosiae/is-valid-http-url.svg?token=6vparaXCWUN3XaBxczAx&branch=master)](https://travis-ci.com/neosiae/is-valid-http-url)
+
 Check whether a string is a valid HTTP URL
 
 This module is based on a [gist](https://gist.github.com/dperini/729294) by [Diego Perini](https://github.com/dperini).
@@ -23,3 +25,5 @@ isUrl('example.com'); // true
 isUrl('example') // false
 isUrl('//example.com') // false
 ```
+## License
+MIT
