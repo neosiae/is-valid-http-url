@@ -18,6 +18,9 @@
     "url": "https://neosiae.com"
   },
   "license": "MIT",
+  "scripts": {
+    "test": "yarn jest"
+  },
   "devDependencies": {
     "jest": "^22.4.2"
   }
