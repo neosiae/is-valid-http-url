@@ -1,6 +1,6 @@
 # is-valid-http-url
 
-> Check whether a string is a valid HTTP URL
+Check whether a string is a valid HTTP URL
 
 This module is based on a [gist](https://gist.github.com/dperini/729294) by [Diego Perini](https://github.com/dperini).
 
