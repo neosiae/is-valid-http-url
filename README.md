@@ -12,3 +12,14 @@ Install is-valid-http-url using [npm](https://www.npmjs.com):
 Or via [yarn](https://yarnpkg.com/en):
 > yarn add is-valid-http-url
 
+## Usage
+
+```javascript
+const isUrl = require('is-valid-http-url');
+
+isUrl('http://example.com'); // true
+isUrl('example.com'); // true
+
+isUrl('example') // false
+isUrl('//example.com') // false
+```
