@@ -1,0 +1,24 @@
+{
+  "name": "is-valid-http-url",
+  "version": "1.0.0",
+  "description": "Check whether a string is a valid HTTP URL",
+  "keywords": [
+    "http",
+    "url",
+    "uri",
+    "string",
+    "check",
+    "validate",
+    "validation"
+  ],
+  "main": "index.js",
+  "author": {
+    "name": "Denis Kotlica",
+    "email": "neosiae@gmail.com",
+    "url": "https://neosiae.com"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^22.4.2"
+  }
+}
