@@ -17,6 +17,7 @@
     "email": "neosiae@gmail.com",
     "url": "https://neosiae.com"
   },
+  "repository": "https://github.com/neosiae/is-valid-http-url.git",
   "engines": {
     "node": ">=6"
   },
