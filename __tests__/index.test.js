@@ -44,7 +44,8 @@ describe('isUrl', () => {
       'http://127.0.0.1:1337',
       'http://10.1.1.1',
       'http://10.1.1.254',
-      'http://192.168.0.5'
+      'http://192.168.0.5',
+      'http://223.255.255.254',
     ]
 
     for (let url of validUrls) {
@@ -80,6 +81,7 @@ describe('isUrl', () => {
       'http://3628126748',
       'http://.www.foo.bar/',
       'http://.www.foo.bar./',
+      'example.com',
       'example',
       '//example.com',
       'http://255.255.255.255',
@@ -92,6 +94,7 @@ describe('isUrl', () => {
       'https://253.255',
       'http://253',
       'http://10.1.1.255',
+      'http://234.255.255.254',
     ]
 
     for (let url of invalidUrls) {
