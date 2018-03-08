@@ -22,8 +22,8 @@ const isUrl = require('is-valid-http-url');
 isUrl('http://example.com'); // true
 isUrl('https://www.example.com/foo/?bar=baz&inga=42&quux'); // true
 
-isUrl('example.com') // false
-isUrl('http://foo.bar?q=Spaces should be encoded') // false
+isUrl('example.com'); // false
+isUrl('http://foo.bar?q=Spaces should be encoded'); // false
 ```
 ## License
 MIT
