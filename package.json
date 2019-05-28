@@ -1,6 +1,6 @@
 {
   "name": "is-valid-http-url",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Check whether a string is a valid HTTP URL",
   "keywords": [
     "http",
@@ -23,7 +23,7 @@
   },
   "license": "MIT",
   "scripts": {
-    "test": "yarn jest"
+    "test": "jest"
   },
   "devDependencies": {
     "jest": "^24.8.0"
